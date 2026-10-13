@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZYRENN PORTOFOLIO | Developer &amp; Programmer</title>
+<meta name="description" content="Portofolio Zyrenn, developer JavaScript, Node.js, dan Python yang membangun website, bot WhatsApp dan Telegram, serta sistem otomatisasi.">
+<meta name="theme-color" content="#ece6d8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ZYRENN PORTOFOLIO | Developer &amp; Programmer">
+<meta property="og:description" content="Website, bot WhatsApp dan Telegram, serta proyek digital karya Zyrenn.">
+<meta property="og:image" content="https://files.catbox.moe/e7aixf.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+<script>
+(function () {
+  var root = document.documentElement;
+  var saved = null;
+  root.classList.add("js");
+  try { saved = localStorage.getItem("zyrenn-theme"); } catch (error) { saved = null; }
+  var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  root.dataset.theme = saved === "dark" || saved === "light" ? saved : (prefersDark ? "dark" : "light");
+})();
+</script>
+<script src="script.js" defer></script>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="ext" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></symbol>
+  <symbol id="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+  <symbol id="moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></symbol>
+  <symbol id="copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></symbol>
+</svg>
+
+<a class="skip-link" href="#main">Lewati ke konten</a>
+
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <a class="brand" href="#home" aria-label="ZYRENN, kembali ke atas">
+      <span class="brand-name">ZYRENN</span>
+      <span class="brand-label">PERSONAL DEVELOPER PORTFOLIO</span>
+    </a>
+    <nav class="nav" id="site-nav" aria-label="Navigasi utama">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#projects">Projects</a>
+      <a href="#ecosystem">Developer Profiles</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="icon-btn" id="theme-toggle" type="button" aria-label="Ganti tema">
+      <svg class="si icon-sun" aria-hidden="true"><use href="#sun"/></svg>
+      <svg class="si icon-moon" aria-hidden="true"><use href="#moon"/></svg>
+    </button>
+    <button class="icon-btn burger" id="menu-toggle" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="site-nav">
+      <span class="burger-bars" aria-hidden="true"></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page hero" id="home" aria-labelledby="hero-title">
+    <div class="container hero-grid">
+      <div class="hero-copy reveal">
+        <p class="kicker">INDEPENDENT DEVELOPER • INDONESIA</p>
+        <h1 id="hero-title">Building Ideas Into Digital Reality.</h1>
+        <p class="lead">Gue Zyrenn, seorang developer yang tertarik membangun website, mengembangkan bot WhatsApp dan Telegram, mengeksplorasi teknologi, serta mengubah ide menjadi proyek digital yang bisa digunakan.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#projects">Explore My Projects</a>
+          <a class="btn" href="#contact">Get In Touch</a>
+        </div>
+        <p class="folio">Portfolio edisi 1.0 &nbsp;|&nbsp; Halaman 01</p>
+      </div>
+      <figure class="frame reveal" id="banner-frame">
+        <img id="banner-image" src="https://files.catbox.moe/e7aixf.jpg" alt="Banner identitas visual Zyrenn" width="1200" height="800" decoding="async">
+        <div class="banner-fallback" role="img" aria-label="Banner Zyrenn tidak dapat dimuat"><span>ZYRENN</span></div>
+        <span class="tape" aria-hidden="true"></span>
+        <figcaption class="stamp">DESIGNED &amp; BUILT BY ZYRENN</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="page" id="about" aria-labelledby="about-title">
+    <div class="container">
+      <header class="sec-head reveal"><p class="page-no">Halaman 02</p><h2 id="about-title">A Little About Me.</h2></header>
+      <div class="about-grid">
+        <div class="prose reveal">
+          <p>Gue Zyrenn, seorang developer yang memiliki ketertarikan besar di dunia pemrograman dan pengembangan teknologi. Gue mengeksplorasi berbagai bahasa pemrograman, membangun website, mengembangkan bot WhatsApp dan Telegram, serta membuat sistem otomatisasi yang membantu berbagai kebutuhan digital.</p>
+          <p>Buat gue, coding bukan cuma soal menulis baris kode, tetapi juga tentang memecahkan masalah, mempelajari hal baru, dan mengubah ide menjadi sesuatu yang nyata. Gue terus mengembangkan kemampuan, bereksperimen dengan teknologi, dan berusaha membuat setiap proyek lebih baik dari sebelumnya.</p>
+          <p>Portofolio ini menjadi tempat untuk menampilkan perjalanan, kemampuan, dan proyek yang sedang maupun telah gue kembangkan.</p>
+        </div>
+        <aside class="panel profile-card reveal" aria-label="Ringkasan profil">
+          <dl>
+            <div><dt>Identity</dt><dd>Independent Developer</dd></div>
+            <div><dt>Focus</dt><dd>Web Development &amp; Automation</dd></div>
+            <div><dt>Main Stack</dt><dd>JavaScript &amp; Node.js</dd></div>
+            <div><dt>Interest</dt><dd>Bots, Web Apps &amp; Developer Tools</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="page" id="skills" aria-labelledby="skills-title">
+    <div class="container">
+      <header class="sec-head reveal"><p class="page-no">Halaman 03</p><h2 id="skills-title">My Technical Skills.</h2></header>
+      <div class="skills-grid">
+        <div class="skills-sheet reveal">
+          <ul class="skill-list" id="skill-list"></ul>
+          <noscript><p class="note">Aktifkan JavaScript untuk melihat daftar skill.</p></noscript>
+        </div>
+        <div class="extra reveal">
+          <figure class="shot">
+            <img src="assets/skills-code.webp" alt="Kode program Ruby on Rails dan RSpec di layar laptop dengan sidebar file proyek" width="1200" height="797" loading="lazy" decoding="async">
+          </figure>
+          <h3>Additional Technologies</h3>
+          <ul class="chips">
+            <li class="chip"><i class="ico" data-icon="git" aria-hidden="true"></i>Git</li>
+            <li class="chip"><i class="ico" data-icon="github" aria-hidden="true"></i>GitHub</li>
+            <li class="chip">REST API</li>
+            <li class="chip">Bot Development</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page" id="timeline" aria-labelledby="timeline-title">
+    <div class="container">
+      <header class="sec-head reveal"><p class="page-no">Halaman 04</p><h2 id="timeline-title">My Journey.</h2></header>
+      <ol class="timeline">
+        <li class="timeline-item reveal">
+          <span class="timeline-year">2024</span>
+          <div class="timeline-body">
+            <h3>Mulai belajar pemrograman</h3>
+            <p>Titik awal perjalanan gue di dunia pemrograman.</p>
+          </div>
+        </li>
+        <li class="timeline-item reveal">
+          <span class="timeline-year">Sekarang</span>
+          <div class="timeline-body">
+            <h3>Membangun dan terus belajar</h3>
+            <p>Membangun website, bot WhatsApp dan Telegram, serta package JavaScript, sambil terus bereksperimen dengan teknologi.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="page" id="projects" aria-labelledby="projects-title">
+    <div class="container">
+      <header class="sec-head reveal"><p class="page-no">Halaman 05</p><h2 id="projects-title">Selected Projects.</h2></header>
+      <div class="project-grid">
+        <article class="panel project reveal">
+          <div class="cover cover-lines" aria-hidden="true"><span>01</span></div>
+          <div class="project-body">
+            <p class="meta">Web Project</p>
+            <h3>Panel Erlangga</h3>
+            <p>Proyek web yang berhubungan dengan panel dan pengelolaan layanan server. Kunjungi website untuk melihat fitur dan implementasi yang tersedia.</p>
+            <a class="btn" href="https://panelerlangga.my.id/" target="_blank" rel="noopener noreferrer">Visit Project <svg class="si" aria-hidden="true"><use href="#ext"/></svg></a>
+          </div>
+        </article>
+        <article class="panel project reveal">
+          <div class="cover cover-grid" aria-hidden="true"><span>02</span></div>
+          <div class="project-body">
+            <p class="meta">Web Tools</p>
+            <h3>WhatsApp Debug</h3>
+            <p>Proyek web yang berfokus pada tools dan pengembangan seputar WhatsApp. Kunjungi website untuk melihat implementasi dan fitur yang tersedia.</p>
+            <a class="btn" href="https://debugwhatsapp.my.id/" target="_blank" rel="noopener noreferrer">Visit Project <svg class="si" aria-hidden="true"><use href="#ext"/></svg></a>
+          </div>
+        </article>
+        <article class="panel feature reveal">
+          <div class="feature-main">
+            <p class="tags"><span class="tag">PACKAGE RELEASE</span><span class="tag">NODE.JS ECOSYSTEM</span></p>
+            <p class="meta">NPM PACKAGE • WHATSAPP DEVELOPMENT</p>
+            <h3><span class="feature-no">03</span> ZYRENN BAILEYS</h3>
+            <p>ZYRENN BAILEYS merupakan package yang dipublikasikan melalui npm untuk kebutuhan pengembangan aplikasi dan bot WhatsApp berbasis JavaScript. Kunjungi halaman package untuk melihat dokumentasi, informasi versi, dan detail penggunaan yang tersedia.</p>
+            <div class="actions">
+              <a class="btn btn-primary" href="https://www.npmjs.com/package/@zyrennofficiall/baileys" target="_blank" rel="noopener noreferrer"><i class="ico" data-icon="npm" aria-hidden="true"></i>View on npm <svg class="si" aria-hidden="true"><use href="#ext"/></svg></a>
+              <button class="btn" id="copy-package" type="button" data-copy="@zyrennofficiall/baileys"><svg class="si" aria-hidden="true"><use href="#copy"/></svg>Copy Package Name</button>
+            </div>
+          </div>
+          <aside class="pkgdoc" aria-label="Informasi package">
+            <p class="pkgdoc-name"><i class="ico" data-icon="npm" aria-hidden="true"></i><code>@zyrennofficiall/baileys</code></p>
+            <dl>
+              <div><dt>Project name</dt><dd>ZYRENN BAILEYS</dd></div>
+              <div><dt>Package</dt><dd><code>@zyrennofficiall/baileys</code></dd></div>
+              <div><dt>Ecosystem</dt><dd><i class="ico" data-icon="nodedotjs" aria-hidden="true"></i><i class="ico" data-icon="javascript" aria-hidden="true"></i>Node.js / JavaScript</dd></div>
+              <div><dt>Platform</dt><dd>npm</dd></div>
+              <div><dt>Category</dt><dd>WhatsApp Development</dd></div>
+            </dl>
+          </aside>
+        </article>
+      </div>
+      <div class="bots reveal">
+        <h3 class="group-title">Telegram Bots</h3>
+        <ul class="panel bot-list">
+          <li class="bot-row">
+            <i class="ico ico-lg" data-icon="telegram" aria-hidden="true"></i>
+            <span class="bot-info"><span class="bot-name">@UbotManagerV2bot</span><span class="meta">Telegram Bot • Ubot</span></span>
+            <a class="btn" href="https://t.me/UbotManagerV2bot" target="_blank" rel="noopener noreferrer">Open Bot <svg class="si" aria-hidden="true"><use href="#ext"/></svg></a>
+          </li>
+          <li class="bot-row">
+            <i class="ico ico-lg" data-icon="telegram" aria-hidden="true"></i>
+            <span class="bot-info"><span class="bot-name">@erlngbot</span><span class="meta">Telegram Bot • Bot Store</span></span>
+            <a class="btn" href="https://t.me/erlngbot" target="_blank" rel="noopener noreferrer">Open Bot <svg class="si" aria-hidden="true"><use href="#ext"/></svg></a>
+          </li>
+          <li class="bot-row">
+            <i class="ico ico-lg" data-icon="telegram" aria-hidden="true"></i>
+            <span class="bot-info"><span class="bot-name">@UploadGithubbbBot</span><span class="meta">Telegram Bot</span></span>
+            <a class="btn" href="https://t.me/UploadGithubbbBot" target="_blank" rel="noopener noreferrer">Open Bot <svg class="si" aria-hidden="true"><use href="#ext"/></svg></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="page" id="ecosystem" aria-labelledby="eco-title">
+    <div class="container">
+      <header class="sec-head reveal"><p class="page-no">Halaman 06</p><h2 id="eco-title">Developer Ecosystem.</h2></header>
+      <div class="eco-grid">
+        <article class="panel eco eco-github reveal">
+          <i class="ico ico-xl" data-icon="github" aria-hidden="true"></i>
+          <p class="meta">CODE REPOSITORIES</p>
+          <h3>ErlanggaaaXzzzz</h3>
+          <p>Tempat gue mengembangkan, mengelola, dan membagikan berbagai proyek coding serta eksperimen teknologi.</p>
+          <a class="btn" href="https://github.com/ErlanggaaaXzzzz" target="_blank" rel="noopener noreferrer">Explore GitHub <svg class="si" aria-hidden="true"><use href="#ext"/></svg></a>
+        </article>
+        <article class="panel eco eco-npm reveal">
+          <i class="ico ico-xl" data-icon="npm" aria-hidden="true"></i>
+          <p class="meta">JAVASCRIPT PACKAGES</p>
+          <h3>zyrennofficiall</h3>
+          <p>Profil npm gue untuk membagikan package JavaScript yang dapat digunakan oleh developer lain dalam proyek mereka.</p>
+          <a class="btn" href="https://www.npmjs.com/~zyrennofficiall" target="_blank" rel="noopener noreferrer">Explore npm Profile <svg class="si" aria-hidden="true"><use href="#ext"/></svg></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="page" id="contact" aria-labelledby="contact-title">
+    <div class="container">
+      <header class="sec-head reveal"><p class="page-no">Halaman 07</p><h2 id="contact-title">Let's Connect.</h2></header>
+      <p class="lead reveal">Punya pertanyaan, ide proyek, atau ingin berdiskusi seputar teknologi? Hubungi gue melalui salah satu kontak di bawah.</p>
+      <h3 class="group-title reveal">Telegram</h3>
+      <div class="contact-grid">
+        <a class="panel contact reveal" href="https://t.me/exx121" target="_blank" rel="noopener noreferrer"><i class="ico ico-lg" data-icon="telegram" aria-hidden="true"></i><span><span class="contact-label">Telegram 1</span><span class="contact-value">@exx121</span></span><svg class="si" aria-hidden="true"><use href="#ext"/></svg></a>
+        <a class="panel contact reveal" href="https://t.me/ErlanggaXzzz" target="_blank" rel="noopener noreferrer"><i class="ico ico-lg" data-icon="telegram" aria-hidden="true"></i><span><span class="contact-label">Telegram 2</span><span class="contact-value">@ErlanggaXzzz</span></span><svg class="si" aria-hidden="true"><use href="#ext"/></svg></a>
+        <a class="panel contact reveal" href="https://t.me/erlanggggg1" target="_blank" rel="noopener noreferrer"><i class="ico ico-lg" data-icon="telegram" aria-hidden="true"></i><span><span class="contact-label">Telegram 3</span><span class="contact-value">@erlanggggg1</span></span><svg class="si" aria-hidden="true"><use href="#ext"/></svg></a>
+      </div>
+      <h3 class="group-title reveal">WhatsApp</h3>
+      <div class="contact-grid">
+        <a class="panel contact reveal" href="https://wa.me/6288905301682" target="_blank" rel="noopener noreferrer"><i class="ico ico-lg" data-icon="whatsapp" aria-hidden="true"></i><span><span class="contact-label">WhatsApp 1</span><span class="contact-value">088905301682</span></span><svg class="si" aria-hidden="true"><use href="#ext"/></svg></a>
+        <a class="panel contact reveal" href="https://wa.me/628135842613" target="_blank" rel="noopener noreferrer"><i class="ico ico-lg" data-icon="whatsapp" aria-hidden="true"></i><span><span class="contact-label">WhatsApp 2</span><span class="contact-value">08135842613</span></span><svg class="si" aria-hidden="true"><use href="#ext"/></svg></a>
+      </div>
+      <h3 class="group-title reveal">Telegram Channel</h3>
+      <div class="contact-grid">
+        <a class="panel contact reveal" href="https://t.me/zyrennchannelupdate" target="_blank" rel="noopener noreferrer"><i class="ico ico-lg" data-icon="telegram" aria-hidden="true"></i><span><span class="contact-label">Channel Update</span><span class="contact-value">@zyrennchannelupdate</span></span><svg class="si" aria-hidden="true"><use href="#ext"/></svg></a>
+        <a class="panel contact reveal" href="https://t.me/+6-lsFMxrrEw3Mjc1" target="_blank" rel="noopener noreferrer"><i class="ico ico-lg" data-icon="telegram" aria-hidden="true"></i><span><span class="contact-label">Channel Backup</span><span class="contact-value">Gabung lewat link undangan</span></span><svg class="si" aria-hidden="true"><use href="#ext"/></svg></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <p class="brand-name">ZYRENN</p>
+      <p>Designed &amp; Developed by Zyrenn.</p>
+      <p class="folio">PERSONAL DEVELOPER PORTFOLIO</p>
+    </div>
+    <nav class="footer-nav" aria-label="Navigasi footer">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <ul class="footer-social">
+      <li><a href="https://github.com/ErlanggaaaXzzzz" target="_blank" rel="noopener noreferrer"><i class="ico" data-icon="github" aria-hidden="true"></i>GitHub</a></li>
+      <li><a href="https://www.npmjs.com/~zyrennofficiall" target="_blank" rel="noopener noreferrer"><i class="ico" data-icon="npm" aria-hidden="true"></i>npm</a></li>
+      <li><a href="https://t.me/exx121" target="_blank" rel="noopener noreferrer"><i class="ico" data-icon="telegram" aria-hidden="true"></i>Telegram</a></li>
+    </ul>
+  </div>
+  <div class="container footer-end">
+    <span>&copy; <span id="year">2026</span> Zyrenn</span>
+    <span class="folio">Halaman 08 &nbsp;|&nbsp; END OF DOCUMENT</span>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
